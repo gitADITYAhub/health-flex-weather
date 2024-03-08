@@ -20,3 +20,18 @@ Currently, two official plugins are available:
 
 Hosted link:
 https://weather-app-health-flex.netlify.app/
+
+
+
+contact information:
+adityasinghhvm10@gmail.com
+
+
+
+
+contact:
+6290461738
+
+
+
+
