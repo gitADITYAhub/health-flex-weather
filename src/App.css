@@ -1,0 +1,101 @@
+
+/* Apply a font throughout the app */
+body, input, button {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Full viewport height, flex container for centering the content */
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+/* Styling for the title */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Styling for the search input and button */
+input, button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  margin: 0.2rem;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 300px;
+}
+
+button {
+  background-color: #61dafb;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4a90e2;
+}
+
+/* Weather information styling */
+div {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Each paragraph within the weather information */
+p {
+  background-color: #ffffff33;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Ensure the input and button are inline */
+div > input, div > button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hourly-forecast-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px; 
+}
+
+.hourly-forecast-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background: #000000; 
+  border-radius: 10px;
+}
